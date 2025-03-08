@@ -7,10 +7,43 @@ body {
     font-size: 3em;
     padding: 5px 25px;
     border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .myLabels {
     font-size: 3em;
+    color: rgb(255, 255, 255);
+}
+
+.dice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+}
+
+.dice1 {
+    background-color: blue;
+}
+
+.dice2 {
+    background-color: red;
+}
+
+.dice3 {
+    background-color: rgb(0, 175, 0);
 }
 
 
